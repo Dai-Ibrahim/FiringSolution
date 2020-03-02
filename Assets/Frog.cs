@@ -17,7 +17,7 @@ public class Frog : MonoBehaviour
 
     void Start()
     {
-		targets = GameObject.FindGameObjectsWithTag(targetTag);
+		//targets = GameObject.FindGameObjectsWithTag(targetTag);
 		Debug.Log(targetIndex);
 
 		Debug.Log(targets[0]);
